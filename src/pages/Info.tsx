@@ -27,8 +27,8 @@ const Info = () => {
         
         <div>
           <img
-            src="/lovable-uploads/a00fc0fe-587c-42f8-b910-dc8ad97bf1cd.png"
-            alt="Kras Gorin portrait"
+            src="/lovable-uploads/f64c1b48-3355-453c-b6ef-445dbb8aac4c.png"
+            alt="Artist portrait in a hat"
             className="w-full rounded-lg shadow-lg"
           />
           <p className="text-center mt-4">born in Bulgaria - March 23, 1948</p>
