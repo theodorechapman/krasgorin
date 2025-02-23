@@ -99,3 +99,27 @@
     @apply bg-background text-foreground;
   }
 }
+
+.gallery-image {
+  @apply relative w-full h-full overflow-hidden transition-all duration-300;
+}
+
+.gallery-overlay {
+  @apply absolute inset-0 bg-black/40 opacity-0 transition-opacity duration-300 flex flex-col items-center justify-center text-white;
+}
+
+.gallery-image:hover .gallery-overlay {
+  @apply opacity-100;
+}
+
+.nav-link {
+  @apply px-6 py-2 transition-colors duration-300;
+}
+
+.nav-link.active {
+  @apply bg-neutral-800 text-white;
+}
+
+.page-transition {
+  @apply transition-opacity duration-300;
+}
