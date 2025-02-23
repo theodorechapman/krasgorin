@@ -19,7 +19,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       </header>
       <main className="page-transition">{children}</main>
       <footer className="text-center mt-12 text-sm text-gray-600">
-        © 2022 Kras Gorin
+        © 2025 Kras Gorin
       </footer>
     </div>
   );
