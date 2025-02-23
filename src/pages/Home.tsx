@@ -5,32 +5,32 @@ import { Heart } from "lucide-react";
 const galleries = [
   {
     id: 1,
-    image: "/lovable-uploads/5767049f-9ecf-4e14-a39d-90bf806e49a3.png",
-    title: "Click for emotions in space collection"
-  },
-  {
-    id: 2,
-    image: "/lovable-uploads/89627bb8-8035-47c6-a97b-bcf230bf288a.png",
+    image: "/lovable-uploads/c56be914-595e-4bf3-a890-18c9d4c5e95e.png",
     title: "Click for the mosaic collection"
   },
   {
+    id: 2,
+    image: "/lovable-uploads/1e6c0b09-6f1d-4e6f-ae7f-2108e53f5fae.png",
+    title: "Click for the abstract collection"
+  },
+  {
     id: 3,
-    image: "/lovable-uploads/3a003761-53c2-42e6-9a4c-7073ecb8639a.png",
+    image: "/lovable-uploads/6b108f2b-be6a-46e3-8688-2f554ef95419.png",
     title: "Click for the mixed media collection"
   },
   {
     id: 4,
-    image: "/lovable-uploads/2eb99fc8-75be-4e26-b4e5-20707f5af501.png",
+    image: "/lovable-uploads/fba64bab-a003-433b-b64f-df2e47b2352e.png",
     title: "Click for the religious paintings collection"
   },
   {
     id: 5,
-    image: "/lovable-uploads/feeefabb-593d-4957-9613-19f955bbb3bb.png",
+    image: "/lovable-uploads/c96d7f05-825b-4b39-a989-cc46de8b8147.png",
     title: "Click for the Point to Point collection"
   },
   {
     id: 6,
-    image: "/lovable-uploads/cd68e19e-b18e-4927-bfb4-6b36c36a1644.png",
+    image: "/lovable-uploads/a0b69580-84bf-472e-958c-3ecdcb96554d.png",
     title: "Click for the pet portrait collection"
   }
 ];
