@@ -1,6 +1,7 @@
 
 import Layout from "../components/Layout";
 import { Heart } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const galleries = [
   {
@@ -40,7 +41,7 @@ const Home = () => {
     <Layout>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {galleries.map((gallery) => (
-          <div key={gallery.id} className="aspect-square gallery-image">
+          <Link key={gallery.id} to={`/gallery/${gallery.id}`} className="aspect-square gallery-image">
             <img
               src={gallery.image}
               alt={gallery.title}
@@ -52,7 +53,7 @@ const Home = () => {
                 <Heart className="w-6 h-6" />
               </button>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </Layout>
