@@ -1,17 +1,12 @@
 
-import { useParams, Link } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import Layout from "../components/Layout";
-import { AspectRatio } from "@/components/ui/aspect-ratio";
+import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { useEffect, useState } from "react";
+import { ArrowLeft } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
-// Define the gallery data structure
-interface GalleryItem {
-  id: number;
-  image: string;
-  title: string;
-}
-
-// Collection data mapped by id
+// Collection data mapped by id (same as in GalleryPage.tsx)
 const collectionData: Record<string, {
   title: string;
   description: string;
@@ -88,35 +83,34 @@ const collectionData: Record<string, {
   }
 };
 
-const GalleryPage = () => {
-  const { id } = useParams<{ id: string }>();
+const ArtworkDetailPage = () => {
+  const { collectionId, imageIndex } = useParams<{ collectionId: string; imageIndex: string }>();
   const [loading, setLoading] = useState(true);
-  const [loadedImages, setLoadedImages] = useState<number>(0);
-  const collection = id ? collectionData[id] : null;
+  const navigate = useNavigate();
   
-  useEffect(() => {
-    // Reset loading state when gallery changes
-    setLoading(true);
-    setLoadedImages(0);
-  }, [id]);
+  const collection = collectionId ? collectionData[collectionId] : null;
+  const imageIdx = imageIndex ? parseInt(imageIndex) : 0;
   
-  // Calculate when all images are loaded
-  useEffect(() => {
-    if (collection && loadedImages === collection.images.length) {
-      setLoading(false);
-    }
-  }, [loadedImages, collection]);
-
+  const imageSrc = collection?.images[imageIdx];
+  const artworkTitle = collection ? `${collection.title} - Artwork ${imageIdx + 1}` : "Artwork";
+  
   const handleImageLoad = () => {
-    setLoadedImages(prev => prev + 1);
+    setLoading(false);
+  };
+  
+  const handleBackClick = () => {
+    navigate(`/gallery/${collectionId}`);
   };
 
-  if (!collection) {
+  if (!collection || !imageSrc) {
     return (
       <Layout>
         <div className="text-center py-12">
-          <h2 className="text-2xl font-medium mb-4">Gallery not found</h2>
-          <p>Sorry, we couldn't find the collection you're looking for.</p>
+          <h2 className="text-2xl font-medium mb-4">Artwork not found</h2>
+          <p>Sorry, we couldn't find the artwork you're looking for.</p>
+          <Button onClick={() => navigate("/")} variant="outline" className="mt-4">
+            <ArrowLeft className="mr-2 h-4 w-4" /> Return to galleries
+          </Button>
         </div>
       </Layout>
     );
@@ -124,44 +118,33 @@ const GalleryPage = () => {
 
   return (
     <Layout>
-      <div className="max-w-4xl mx-auto">
-        <div className="text-center mb-8">
-          <h2 className="text-3xl font-medium tracking-wide mb-2">{collection.title}</h2>
-          <p className="text-gray-600">{collection.description}</p>
+      <div className="max-w-5xl mx-auto px-4">
+        <div className="mb-6">
+          <Button onClick={handleBackClick} variant="outline" className="mb-4">
+            <ArrowLeft className="mr-2 h-4 w-4" /> Back to {collection.title}
+          </Button>
+          <h2 className="text-2xl font-medium">{artworkTitle}</h2>
         </div>
-
+        
         {loading && (
-          <div className="flex justify-center items-center h-40">
-            <div className="text-center">
-              <p className="text-lg mb-2">Loading artwork...</p>
-              <p className="text-sm text-gray-500">
-                {loadedImages} of {collection.images.length} images loaded
-              </p>
-            </div>
+          <div className="flex justify-center items-center h-64">
+            <p>Loading artwork...</p>
           </div>
         )}
-
-        <div className={`grid grid-cols-1 md:grid-cols-2 gap-6 ${loading ? 'opacity-0' : 'opacity-100 transition-opacity duration-500'}`}>
-          {collection.images.map((image, index) => (
-            <Link 
-              key={index} 
-              to={`/artwork/${id}/${index}`}
-              className="rounded-lg overflow-hidden shadow-md transition-transform hover:scale-[1.02]"
-            >
-              <AspectRatio ratio={4/3}>
-                <img 
-                  src={image} 
-                  alt={`${collection.title} artwork ${index + 1}`} 
-                  className="w-full h-full object-cover"
-                  onLoad={handleImageLoad}
-                />
-              </AspectRatio>
-            </Link>
-          ))}
+        
+        <div className={`${loading ? 'opacity-0' : 'opacity-100 transition-opacity duration-500'}`}>
+          <div className="mx-auto max-w-3xl shadow-xl rounded-lg overflow-hidden">
+            <img 
+              src={imageSrc} 
+              alt={artworkTitle} 
+              className="w-full h-auto"
+              onLoad={handleImageLoad}
+            />
+          </div>
         </div>
       </div>
     </Layout>
   );
 };
 
-export default GalleryPage;
+export default ArtworkDetailPage;

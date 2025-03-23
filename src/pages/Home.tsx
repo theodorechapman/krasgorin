@@ -1,6 +1,5 @@
 
 import Layout from "../components/Layout";
-import { Heart } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const galleries = [
@@ -53,10 +52,7 @@ const Home = () => {
               className="w-full h-full object-cover"
             />
             <div className="gallery-overlay">
-              <p className="text-center px-4 mb-4 text-lg">{gallery.title}</p>
-              <button className="p-2 rounded-full hover:bg-white/20 transition-colors">
-                <Heart className="w-6 h-6" />
-              </button>
+              <p className="text-center px-4 text-lg">{gallery.title}</p>
             </div>
           </Link>
         ))}
