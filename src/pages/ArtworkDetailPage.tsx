@@ -1,4 +1,3 @@
-
 import { useParams, useNavigate } from "react-router-dom";
 import Layout from "../components/Layout";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
@@ -43,9 +42,16 @@ const collectionData: Record<string, {
     title: "Mixed Media Collection",
     description: "Experimental works combining various materials and techniques.",
     images: [
-      "/lovable-uploads/6b108f2b-be6a-46e3-8688-2f554ef95419.png",
-      "/lovable-uploads/cd68e19e-b18e-4927-bfb4-6b36c36a1644.png",
-      "/lovable-uploads/a00fc0fe-587c-42f8-b910-dc8ad97bf1cd.png"
+      "/lovable-uploads/f645ac43-39a0-4db5-a551-adf54c58ebba.png",
+      "/lovable-uploads/595db608-29c8-43e2-8671-b6c38fb919ca.png",
+      "/lovable-uploads/0113f857-4bac-4bea-9bed-7f91c0f09946.png",
+      "/lovable-uploads/65bcae03-29e8-42f8-b656-f68d8c51ce59.png",
+      "/lovable-uploads/48bc7343-a3f7-4127-b1fe-37b5193a1c9d.png",
+      "/lovable-uploads/6dfc90e0-dfdb-437c-b526-a60bae709e0d.png",
+      "/lovable-uploads/3b3065b1-e881-46f3-a642-4b030d2f70bf.png",
+      "/lovable-uploads/47099e6d-1cbb-4c6d-80c0-7d93a8cc5c09.png",
+      "/lovable-uploads/f67961da-3d69-4c27-b358-de30d4798bcf.png",
+      "/lovable-uploads/3ef4dd48-8fe3-4659-b05c-737b4c88352e.png"
     ]
   },
   "4": {

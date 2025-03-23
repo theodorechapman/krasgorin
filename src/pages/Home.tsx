@@ -20,7 +20,7 @@ const galleries = [
   },
   {
     id: 3,
-    image: "/lovable-uploads/6b108f2b-be6a-46e3-8688-2f554ef95419.png",
+    image: "/lovable-uploads/f645ac43-39a0-4db5-a551-adf54c58ebba.png",
     title: "Click for mixed media collection"
   },
   {
@@ -29,14 +29,14 @@ const galleries = [
     title: "Click for religious paintings collection"
   },
   {
-    id: 5,
-    image: "/lovable-uploads/c96d7f05-825b-4b39-a989-cc46de8b8147.png",
-    title: "Click for Point to Point collection"
-  },
-  {
     id: 6,
     image: "/lovable-uploads/a0b69580-84bf-472e-958c-3ecdcb96554d.png",
     title: "Click for pet portrait collection"
+  },
+  {
+    id: 5,
+    image: "/lovable-uploads/c96d7f05-825b-4b39-a989-cc46de8b8147.png",
+    title: "Click for Point to Point collection"
   }
 ];
 
