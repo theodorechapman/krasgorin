@@ -28,12 +28,12 @@ const collectionData: Record<string, {
     ]
   },
   "2": {
-    title: "Abstract Collection",
-    description: "Bold expressions of form and color in abstract compositions.",
+    title: "Emotions In Space Collection",
+    description: "Bold expressions of form and emotion in cosmic-inspired compositions.",
     images: [
-      "/lovable-uploads/1e6c0b09-6f1d-4e6f-ae7f-2108e53f5fae.png",
-      "/lovable-uploads/5767049f-9ecf-4e14-a39d-90bf806e49a3.png",
-      "/lovable-uploads/89627bb8-8035-47c6-a97b-bcf230bf288a.png"
+      "/lovable-uploads/c56be914-595e-4bf3-a890-18c9d4c5e95e.png",
+      "/lovable-uploads/2eb99fc8-75be-4e26-b4e5-20707f5af501.png",
+      "/lovable-uploads/3a003761-53c2-42e6-9a4c-7073ecb8639a.png"
     ]
   },
   "3": {

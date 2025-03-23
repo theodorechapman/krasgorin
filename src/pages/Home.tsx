@@ -15,8 +15,8 @@ const galleries = [
   },
   {
     id: 2,
-    image: "/lovable-uploads/1e6c0b09-6f1d-4e6f-ae7f-2108e53f5fae.png",
-    title: "Click for abstract collection"
+    image: "/lovable-uploads/c56be914-595e-4bf3-a890-18c9d4c5e95e.png",
+    title: "Click for Emotions In Space collection"
   },
   {
     id: 3,

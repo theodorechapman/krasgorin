@@ -20,7 +20,7 @@ const Info = () => {
             </p>
             
             <p>
-              For more info, contact us <a href="#" className="underline hover:text-gray-600 transition-colors">here</a>
+              For more info, contact us here: krasart@mac.com
             </p>
           </div>
         </div>
