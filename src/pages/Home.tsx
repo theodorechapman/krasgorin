@@ -29,14 +29,14 @@ const galleries = [
     title: "Click for religious paintings collection"
   },
   {
-    id: 5,
-    image: "/lovable-uploads/c96d7f05-825b-4b39-a989-cc46de8b8147.png",
-    title: "Click for Point to Point collection"
-  },
-  {
     id: 6,
     image: "/lovable-uploads/aa3bb5ab-28b7-417c-b880-334154ba1a80.png",
     title: "Click for Americana collection"
+  },
+  {
+    id: 5,
+    image: "/lovable-uploads/09b68f99-cdab-4a3c-bb48-06fdde3339bf.png",
+    title: "Click for Point to Point collection"
   }
 ];
 

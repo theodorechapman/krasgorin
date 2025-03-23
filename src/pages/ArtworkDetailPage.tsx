@@ -57,7 +57,7 @@ const collectionData: Record<string, {
   },
   "4": {
     title: "Religious Paintings Collection",
-    description: "Spiritual and contemplative works exploring religious themes.",
+    description: "Spiritual and contemplative works exploring Orthodox Christian icons and broader religious themes.",
     images: [
       "/lovable-uploads/8e2c5197-ecca-4fab-87d5-c5e3393706b5.png",
       "/lovable-uploads/6ab4ccfb-df23-4354-a915-8097234f9d52.png",
@@ -72,10 +72,15 @@ const collectionData: Record<string, {
   },
   "5": {
     title: "Point to Point Collection",
-    description: "Intricate works exploring connectivity and pattern.",
+    description: "Works commemorating the annual Winterthur Point-to-Point Steeplechase.",
     images: [
-      "/lovable-uploads/c96d7f05-825b-4b39-a989-cc46de8b8147.png",
-      "/lovable-uploads/cd68e19e-b18e-4927-bfb4-6b36c36a1644.png"
+      "/lovable-uploads/09b68f99-cdab-4a3c-bb48-06fdde3339bf.png",
+      "/lovable-uploads/fad16d17-067f-4bf9-99b4-18f26a2429c7.png",
+      "/lovable-uploads/f38a75c6-d053-4c32-8396-82345be1e6b4.png",
+      "/lovable-uploads/6bb772fb-e76a-4340-aa2c-b069866f1dd6.png",
+      "/lovable-uploads/7c5a39cb-67c2-4905-9f10-564186abe983.png",
+      "/lovable-uploads/325485ba-6aed-4a63-a861-b5252e5474ff.png",
+      "/lovable-uploads/aa446434-ca8b-4f02-9f1c-6bb988219bee.png"
     ]
   },
   "6": {
