@@ -4,7 +4,7 @@ A web project I made to showcase my Grandpa's art career.
 
 ## Project info
 
-**URL**: krasgorin.com
+**URL**: https://krasgorin.com
 
 **PROJECT URL**: https://lovable.dev/projects/09e26e00-6172-4652-89da-20522780984a
 
