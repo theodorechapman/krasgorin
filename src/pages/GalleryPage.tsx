@@ -1,4 +1,3 @@
-
 import { useParams, Link } from "react-router-dom";
 import Layout from "../components/Layout";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
@@ -22,8 +21,15 @@ const collectionData: Record<string, {
     description: "A series exploring texture and pattern through mosaic techniques.",
     images: [
       "/lovable-uploads/c56be914-595e-4bf3-a890-18c9d4c5e95e.png",
-      "/lovable-uploads/2eb99fc8-75be-4e26-b4e5-20707f5af501.png",
-      "/lovable-uploads/3a003761-53c2-42e6-9a4c-7073ecb8639a.png"
+      "/lovable-uploads/26428e69-856f-497a-ada6-cd4f85add9d6.png",
+      "/lovable-uploads/1eff9295-7f13-4210-8324-043c53c4f274.png",
+      "/lovable-uploads/955962a9-2a97-4f02-af11-fe5c17aabea6.png",
+      "/lovable-uploads/c6f25d97-a411-43e6-95c3-3e5b692a055d.png",
+      "/lovable-uploads/13f861f2-5518-4284-9d5f-cc3a0f7892ce.png",
+      "/lovable-uploads/ae6d8397-cc3a-4d7d-bb72-d6f9db98a4b4.png",
+      "/lovable-uploads/84ffa129-fc08-4339-8236-7e4249024516.png",
+      "/lovable-uploads/d3178134-4efb-4e22-b2b3-601b34d29d53.png",
+      "/lovable-uploads/ce7bd3c8-5ebe-43bf-9825-d6486496f9f6.png"
     ]
   },
   "2": {
@@ -95,12 +101,10 @@ const GalleryPage = () => {
   const collection = id ? collectionData[id] : null;
   
   useEffect(() => {
-    // Reset loading state when gallery changes
     setLoading(true);
     setLoadedImages(0);
   }, [id]);
   
-  // Calculate when all images are loaded
   useEffect(() => {
     if (collection && loadedImages === collection.images.length) {
       setLoading(false);
