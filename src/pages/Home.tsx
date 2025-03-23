@@ -11,32 +11,32 @@ const galleries = [
   {
     id: 1,
     image: "/lovable-uploads/68d07db1-add3-400b-b833-820d738607d3.png",
-    title: "Click for the mosaic collection"
+    title: "Click for mosaic collection"
   },
   {
     id: 2,
     image: "/lovable-uploads/1e6c0b09-6f1d-4e6f-ae7f-2108e53f5fae.png",
-    title: "Click for the abstract collection"
+    title: "Click for abstract collection"
   },
   {
     id: 3,
     image: "/lovable-uploads/6b108f2b-be6a-46e3-8688-2f554ef95419.png",
-    title: "Click for the mixed media collection"
+    title: "Click for mixed media collection"
   },
   {
     id: 4,
     image: "/lovable-uploads/fba64bab-a003-433b-b64f-df2e47b2352e.png",
-    title: "Click for the religious paintings collection"
+    title: "Click for religious paintings collection"
   },
   {
     id: 5,
     image: "/lovable-uploads/c96d7f05-825b-4b39-a989-cc46de8b8147.png",
-    title: "Click for the Point to Point collection"
+    title: "Click for Point to Point collection"
   },
   {
     id: 6,
     image: "/lovable-uploads/a0b69580-84bf-472e-958c-3ecdcb96554d.png",
-    title: "Click for the pet portrait collection"
+    title: "Click for pet portrait collection"
   }
 ];
 
