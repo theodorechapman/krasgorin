@@ -5,6 +5,11 @@ import { Link } from "react-router-dom";
 
 const galleries = [
   {
+    id: 7,
+    image: "/lovable-uploads/d5a2de54-9946-48f2-9830-8c3b8e1a7889.png",
+    title: "Click for 2025 collection"
+  },
+  {
     id: 1,
     image: "/lovable-uploads/c56be914-595e-4bf3-a890-18c9d4c5e95e.png",
     title: "Click for the mosaic collection"
