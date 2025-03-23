@@ -10,7 +10,7 @@ const galleries = [
   },
   {
     id: 1,
-    image: "/lovable-uploads/c56be914-595e-4bf3-a890-18c9d4c5e95e.png",
+    image: "/lovable-uploads/68d07db1-add3-400b-b833-820d738607d3.png",
     title: "Click for the mosaic collection"
   },
   {

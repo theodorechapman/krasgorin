@@ -1,3 +1,4 @@
+
 import { useParams, Link } from "react-router-dom";
 import Layout from "../components/Layout";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
@@ -20,7 +21,6 @@ const collectionData: Record<string, {
     title: "Mosaic Collection",
     description: "A series exploring texture and pattern through mosaic techniques.",
     images: [
-      "/lovable-uploads/c56be914-595e-4bf3-a890-18c9d4c5e95e.png",
       "/lovable-uploads/26428e69-856f-497a-ada6-cd4f85add9d6.png",
       "/lovable-uploads/1eff9295-7f13-4210-8324-043c53c4f274.png",
       "/lovable-uploads/955962a9-2a97-4f02-af11-fe5c17aabea6.png",
