@@ -31,9 +31,12 @@ const collectionData: Record<string, {
     title: "Emotions In Space Collection",
     description: "Bold expressions of form and emotion in cosmic-inspired compositions.",
     images: [
-      "/lovable-uploads/c56be914-595e-4bf3-a890-18c9d4c5e95e.png",
-      "/lovable-uploads/2eb99fc8-75be-4e26-b4e5-20707f5af501.png",
-      "/lovable-uploads/3a003761-53c2-42e6-9a4c-7073ecb8639a.png"
+      "/lovable-uploads/234eba39-9064-427a-8867-444ed28f4ed6.png",
+      "/lovable-uploads/e42e785b-00aa-46c7-a575-739736723a9e.png",
+      "/lovable-uploads/4d427483-f080-48e2-b41b-8d3c1cd8daed.png",
+      "/lovable-uploads/273ccb83-aa89-4634-a895-e9d150c85c90.png",
+      "/lovable-uploads/4413eb0d-4088-4e32-8bca-28e5cb2b6f41.png",
+      "/lovable-uploads/6a11f824-a3fb-4e84-8e66-6585dc2c3752.png"
     ]
   },
   "3": {

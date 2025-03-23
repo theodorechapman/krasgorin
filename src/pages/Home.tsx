@@ -15,7 +15,7 @@ const galleries = [
   },
   {
     id: 2,
-    image: "/lovable-uploads/c56be914-595e-4bf3-a890-18c9d4c5e95e.png",
+    image: "/lovable-uploads/234eba39-9064-427a-8867-444ed28f4ed6.png",
     title: "Click for Emotions In Space collection"
   },
   {
