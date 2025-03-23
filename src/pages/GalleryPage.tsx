@@ -84,11 +84,14 @@ const collectionData: Record<string, {
     ]
   },
   "6": {
-    title: "Pet Portrait Collection",
-    description: "Beloved animal companions captured in distinctive style.",
+    title: "Americana Collection",
+    description: "Iconic American symbols and themes expressed through artistic interpretation.",
     images: [
-      "/lovable-uploads/a0b69580-84bf-472e-958c-3ecdcb96554d.png",
-      "/lovable-uploads/89627bb8-8035-47c6-a97b-bcf230bf288a.png"
+      "/lovable-uploads/aa3bb5ab-28b7-417c-b880-334154ba1a80.png",
+      "/lovable-uploads/a438554f-e3e0-4786-bb7c-cf28d662f2ca.png",
+      "/lovable-uploads/14701b62-b1a7-406f-9808-2e448953d534.png",
+      "/lovable-uploads/a530b8eb-2d97-4ed6-a6cf-d58e56fe2d50.png",
+      "/lovable-uploads/36d5b44e-bb7f-49d7-a7f0-9e9da4292372.png"
     ]
   },
   "7": {
