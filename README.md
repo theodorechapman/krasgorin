@@ -1,4 +1,4 @@
-# KrasGorin.com
+# krasgorin
 
 A web project I made to showcase my Grandpa's art career.
 
