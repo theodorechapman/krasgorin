@@ -1,3 +1,4 @@
+
 import { useParams, useNavigate } from "react-router-dom";
 import Layout from "../components/Layout";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
@@ -58,8 +59,15 @@ const collectionData: Record<string, {
     title: "Religious Paintings Collection",
     description: "Spiritual and contemplative works exploring religious themes.",
     images: [
-      "/lovable-uploads/fba64bab-a003-433b-b64f-df2e47b2352e.png",
-      "/lovable-uploads/feeefabb-593d-4957-9613-19f955bbb3bb.png"
+      "/lovable-uploads/8e2c5197-ecca-4fab-87d5-c5e3393706b5.png",
+      "/lovable-uploads/6ab4ccfb-df23-4354-a915-8097234f9d52.png",
+      "/lovable-uploads/bab90324-5beb-416d-aefb-93dd71af6f03.png",
+      "/lovable-uploads/86b30abe-d132-41e0-99da-fae73dc34e7a.png",
+      "/lovable-uploads/1de7d452-0900-43af-96e6-8f5e1fdd96eb.png",
+      "/lovable-uploads/ddba137b-7b51-41cc-b0d0-fc3108f9cd9b.png",
+      "/lovable-uploads/bd995e42-415c-402f-908b-b8b7b5cb2546.png",
+      "/lovable-uploads/ffe8128b-5899-44c8-88a9-62e5b351722f.png",
+      "/lovable-uploads/d56bf5c4-184e-4645-b784-2b4c8d987d31.png"
     ]
   },
   "5": {

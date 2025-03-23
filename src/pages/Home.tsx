@@ -25,7 +25,7 @@ const galleries = [
   },
   {
     id: 4,
-    image: "/lovable-uploads/fba64bab-a003-433b-b64f-df2e47b2352e.png",
+    image: "/lovable-uploads/8e2c5197-ecca-4fab-87d5-c5e3393706b5.png",
     title: "Click for religious paintings collection"
   },
   {
