@@ -2,4 +2,4 @@
 
 Website to showcase my Grandpa's art career.
 
-**URL**: https://krasgorin.com
+URL: https://krasgorin.com
